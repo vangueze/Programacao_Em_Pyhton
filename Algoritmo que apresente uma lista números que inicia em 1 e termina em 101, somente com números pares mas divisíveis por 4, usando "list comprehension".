@@ -1,0 +1,8 @@
+#primeira solucao
+pares_por4 = [i for i in lista if i % 2 == 0 and i % 4 == 0]
+print(pares_por4,"\n")
+
+#segunda solucao
+lista = list(range(1,101))
+pares_por4 = [i for i in lista if i % 4 == 0]
+print(pares_por4,"\n")
