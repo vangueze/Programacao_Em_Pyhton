@@ -1,0 +1,8 @@
+#O valor unitário de um livro na promoção custa 120 meticais, caso o cliente compre no máximo 10 livros. Caso contrário o preço unitário do livro custa 80 meticais.
+
+qtdLivros = int(input("Introduza a quantidade de livros : "))
+
+if qtdLivros > 10:
+    print("Valor a pagar por ",qtdLivros," livros : ",qtdLivros * 80," meticais")
+else:
+    print("Valor a pagar por ",qtdLivros," livros : ",qtdLivros * 120," meticais")
