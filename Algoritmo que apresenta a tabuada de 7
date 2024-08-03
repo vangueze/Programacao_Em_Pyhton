@@ -1,0 +1,6 @@
+numero = 7 
+lista = list(range(1,11))
+
+for i in lista:
+    resultado = numero * i
+    print(numero," * ",i," = ",resultado)
