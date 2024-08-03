@@ -1,0 +1,6 @@
+numero = int(input("Introduza o valor que pretende calcular :"))
+lista = list(range(1,11))
+
+for i in lista:
+    resultado = numero * i
+    print(i," * ",numero," = ",resultado)
