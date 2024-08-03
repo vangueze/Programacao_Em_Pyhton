@@ -1,0 +1,11 @@
+#primeira solucao
+lista = list(range(1,101))
+for i in lista:
+    if i % 4 == 0:
+        print(i)
+
+#segunda solucao
+lista = list(range(1,101))
+for i in lista:
+    if i % 2 == 0 and i % 4 == 0:
+        print(i)
