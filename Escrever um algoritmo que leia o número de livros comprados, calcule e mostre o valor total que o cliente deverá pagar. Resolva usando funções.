@@ -1,0 +1,14 @@
+#O valor unitário de um livro na promoção custa 120 meticais, caso o cliente compre no máximo 10 livros. Caso contrário o preço unitário do livro custa 80 meticais.
+
+def calculo_total(qtdLivros):
+    if qtdLivros > 10:
+        valorTotal = qtdLivros * 80
+    else:
+        valorTotal = qtdLivros * 120
+    return valorTotal
+
+qtdLivros = int(input("Introduza a quatidade de livros : "))
+
+valorTotal = calculo_total(qtdLivros)
+
+print("Valor a pagar por ",qtdLivros," livros : ",valorTotal," meticais")
